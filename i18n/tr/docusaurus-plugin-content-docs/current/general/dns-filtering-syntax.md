@@ -1,6 +1,8 @@
 ---
 title: DNS filtreleme kuralları söz dizimi
 sidebar_position: 2
+toc_min_heading_level: 2
+toc_max_heading_level: 4
 ---
 
 ## Giriş
@@ -65,7 +67,7 @@ modifiers = [modifier0, modifier1[, ...[, modifierN]]]
 
 ### Özel Karakterler
 
-* `*`: the wildcard character. It is used to represent any set of characters. Bu ayrıca boş bir dize veya herhangi bir uzunlukta bir dize olabilir.
+* `*`: joker karakter. It is used to represent any set of characters. Bu ayrıca boş bir dize veya herhangi bir uzunlukta bir dize olabilir.
 
 * `||`: herhangi bir alt alan dahil olmak üzere bir ana makine adının başlangıcıyla eşleşir. For instance, `||example.org` matches `example.org` and `test.example.org` but not `testexample.org`.
 
@@ -403,7 +405,7 @@ $ctag=~value1|~value2|...
 
 * `||example.org^$ctag=device_pc|device_phone`: `device_pc` veya `device_phone` olarak etiketlenmiş istemciler için `example.org` alan adını engelleyin.
 
-* `||example.org^$ctag=~device_phone`: block `example.org` for all clients except those tagged as `device_phone`.
+* `||example.org^$ctag=~device_phone`: `example.org` alan adını `device_phone` olarak etiketlenenler hariç tüm istemciler için engelleyin.
 
 İzin verilen etiketlerin listesi:
 

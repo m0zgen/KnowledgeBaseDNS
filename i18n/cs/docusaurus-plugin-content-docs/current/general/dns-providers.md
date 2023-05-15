@@ -397,12 +397,12 @@ EDNS Client-Subnet je metoda, která zahrnuje součásti údajů o IP adresách 
 
 V "Soukromém" režimu — pouze překlad DNS.
 
-| Protokol                 | Adresa                                                                                                  |                                                                                                      |
-| ------------------------ | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| DNS, IPv4                | `149.112.121.10` a `149.112.122.10`                                                                     | [Přidat do AdGuardu](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
-| DNS, IPv6                | `2620:10A:80BB::10` a `2620:10A:80BC::10`                                                               | [Přidat do AdGuardu](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
-| DNS skrze HTTPS          | `https://private.canadianshield.cira.ca/dns-query`                                                      | [Přidat do AdGuardu](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
-| DNS skrze TLS – soukromý | Název hostitele: `tls://family.canadianshield.cira.ca` IP: `149.112.121.10` a IPv6: `2620:10A:80BB::10` | [Přidat do AdGuardu](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
+| Protokol                 | Adresa                                                                                                   |                                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| DNS, IPv4                | `149.112.121.10` a `149.112.122.10`                                                                      | [Přidat do AdGuardu](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
+| DNS, IPv6                | `2620:10A:80BB::10` a `2620:10A:80BC::10`                                                                | [Přidat do AdGuardu](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
+| DNS skrze HTTPS          | `https://private.canadianshield.cira.ca/dns-query`                                                       | [Přidat do AdGuardu](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
+| DNS skrze TLS – soukromý | Název hostitele: `tls://private.canadianshield.cira.ca` IP: `149.112.121.10` a IPv6: `2620:10A:80BB::10` | [Přidat do AdGuardu](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
 
 #### Chráněný
 
@@ -420,12 +420,12 @@ V "Chráněném" režimu — ochrana proti malwaru a krádeži identity.
 
 V "Rodinném" režimu — Chráněný + blokování obsahu pro dospělé.
 
-| Protokol                | Adresa                                                                                                     |                                                                                                     |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| DNS, IPv4               | `149.112.121.30` a `149.112.122.30`                                                                        | [Přidat do AdGuardu](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
-| DNS, IPv6               | `2620:10A:80BB::30` a `2620:10A:80BC::30`                                                                  | [Přidat do AdGuardu](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
-| DNS skrze HTTPS         | `https://family.canadianshield.cira.ca/dns-query`                                                          | [Přidat do AdGuardu](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
-| DNS skrze TLS - rodinný | Název hostitele: `tls://protected.canadianshield.cira.ca` IP: `149.112.121.30` a IPv6: `2620:10A:80BB::30` | [Přidat do AdGuardu](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
+| Protokol                | Adresa                                                                                                  |                                                                                                     |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| DNS, IPv4               | `149.112.121.30` a `149.112.122.30`                                                                     | [Přidat do AdGuardu](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
+| DNS, IPv6               | `2620:10A:80BB::30` a `2620:10A:80BC::30`                                                               | [Přidat do AdGuardu](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
+| DNS skrze HTTPS         | `https://family.canadianshield.cira.ca/dns-query`                                                       | [Přidat do AdGuardu](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
+| DNS skrze TLS - rodinný | Název hostitele: `tls://family.canadianshield.cira.ca` IP: `149.112.121.30` a IPv6: `2620:10A:80BB::30` | [Přidat do AdGuardu](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
 
 ### OpenNIC DNS
 
@@ -821,12 +821,12 @@ Servery [Restena DNS](https://www.restena.lu/en/service/public-dns-resolver) pos
 
 [ibksturm DNS](https://ibksturm.synology.me/) jsou testovací servery poskytované společností ibksturm. OPENNIC, DNSSEC, bez filtrování, bez záznamů.
 
-| Protokol              | Adresa                                                                                        |                                                                                                                                                                                       |
-| --------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DNS skrze TLS, IPv4   | Název hostitele: `tls://ibksturm.synology.me` IP: `83.77.85.7`                                | [Přidat do AdGuardu](sdns://AwAAAAAAAAAAAAAUaWJrc3R1cm0uc3lub2xvZ3kubWU)                                                                                                              |
-| DNS skrze HTTPS, IPv4 | Název hostitele: `https://ibksturm.synology.me/dns-query` IP: `178.82.102.190`                | [Přidat do AdGuardu](sdns://AgcAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                                     |
-| DNSCrypt, IPv4        | Poskytovatel: `2.dnscrypt-cert.ibksturm` IP: `83.77.85.7:8443`                                | [Přidat do AdGuardu](sdns://AQcAAAAAAAAADzgzLjc3Ljg1Ljc6ODQ0MyDBz1dQALBbwmxiH17PmqJWCs6_AH6-yzp_9LIN4LQ57hgyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0)                                          |
-| DNSCrypt, IPv6        | Poskytovatel: `2.dnscrypt-cert.ibksturm` IP: `[2a02:1205:5055:de60:b26e:bfff:fe1d:e19b]:8443` | [Přidat do AdGuardu](sdns://AQcAAAAAAAAALlsyYTAyOjEyMDU6NTA1NTpkZTYwOmIyNmU6YmZmZjpmZTFkOmUxOWJdOjg0NDMgwc9XUACwW8JsYh9ez5qiVgrOvwB-vss6f_SyDeC0Oe4YMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
+| Protokol              | Adresa                                                                         |                                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DNS skrze TLS, IPv4   | Název hostitele: `tls://ibksturm.synology.me` IP: `213.196.191.96`             | [Přidat do AdGuardu](sdns://AwcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS skrze QUIC, IPv4  | Název hostitele: `quic://ibksturm.synology.me` IP: `213.196.191.96`            | [Přidat do AdGuardu](sdns://BAcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS skrze HTTPS, IPv4 | Název hostitele: `https://ibksturm.synology.me/dns-query` IP: `213.196.191.96` | [Přidat do AdGuardu](sdns://AgcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                         |
+| DNSCrypt, IPv4        | Poskytovatel: `2.dnscrypt-cert.ibksturm` IP: `213.196.191.96:8443`             | [Přidat do AdGuardu](sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgKmPSv6jOgF7lERDduUMH7a4Z5ShV7PrD-IcS23XUsPkYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
 
 ### DNS Privacy
 

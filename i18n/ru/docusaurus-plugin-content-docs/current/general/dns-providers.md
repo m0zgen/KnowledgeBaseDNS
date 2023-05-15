@@ -397,12 +397,12 @@ EDNS Client Subnet — это метод, который включает ком
 
 В Приватном режиме — только разрешение DNS.
 
-| Протокол               | Адрес                                                                                              |                                                                                                      |
-| ---------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| DNS, IPv4              | `149.112.121.10` и `149.112.122.10`                                                                | [Добавить в AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
-| DNS, IPv6              | `2620:10A:80BB::10` и `2620:10A:80BC::10`                                                          | [Добавить в AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
-| DNS-over-HTTPS         | `https://private.canadianshield.cira.ca/dns-query`                                                 | [Добавить в AdGuard](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
-| DNS-over-TLS — Private | Hostname: `tls://family.canadianshield.cira.ca` IP: `149.112.121.10` and IPv6: `2620:10A:80BB::10` | [Добавить в AdGuard](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
+| Протокол               | Адрес                                                                                                    |                                                                                                      |
+| ---------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| DNS, IPv4              | `149.112.121.10` и `149.112.122.10`                                                                      | [Добавить в AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
+| DNS, IPv6              | `2620:10A:80BB::10` и `2620:10A:80BC::10`                                                                | [Добавить в AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
+| DNS-over-HTTPS         | `https://private.canadianshield.cira.ca/dns-query`                                                       | [Добавить в AdGuard](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
+| DNS-over-TLS — Private | Имя хоста: `tls://private.canadianshield.cira.ca` IP-адрес: `149.112.121.10` и IPv6: `2620:10A:80BB::10` | [Добавить в AdGuard](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
 
 #### Защищённый
 
@@ -420,12 +420,12 @@ EDNS Client Subnet — это метод, который включает ком
 
 В Семейном режиме — то же, что в Защищённом режиме + блокировка контента для взрослых.
 
-| Протокол              | Адрес                                                                                                      |                                                                                                     |
-| --------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| DNS, IPv4             | `149.112.121.30` и `149.112.122.30`                                                                        | [Добавить в AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
-| DNS, IPv6             | `2620:10A:80BB::30` и `2620:10A:80BC::30`                                                                  | [Добавить в AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
-| DNS-over-HTTPS        | `https://family.canadianshield.cira.ca/dns-query`                                                          | [Добавить в AdGuard](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
-| DNS-over-TLS — Family | Имя хоста: `tls://protected.canadianshield.cira.ca` IP-адрес: `149.112.121.30` и IPv6: `2620:10A:80BB::30` | [Добавить в AdGuard](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
+| Протокол              | Адрес                                                                                                     |                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| DNS, IPv4             | `149.112.121.30` и `149.112.122.30`                                                                       | [Добавить в AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
+| DNS, IPv6             | `2620:10A:80BB::30` и `2620:10A:80BC::30`                                                                 | [Добавить в AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
+| DNS-over-HTTPS        | `https://family.canadianshield.cira.ca/dns-query`                                                         | [Добавить в AdGuard](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
+| DNS-over-TLS — Family | Имя хоста: `tls://family.canadianshield.cira.ca` IP-адрес: `149.112.121.30` and IPv6: `2620:10A:80BB::30` | [Добавить в AdGuard](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
 
 ### OpenNIC DNS
 
@@ -821,12 +821,12 @@ EDNS Client Subnet — это метод, который включает ком
 
 Тестовые серверы [ibksturm DNS](https://ibksturm.synology.me/) от провайдера ibksturm. OPENNIC, DNSSEC, без фильтрации и логирования.
 
-| Протокол             | Адрес                                                                                            |                                                                                                                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DNS-over-TLS, IPv4   | Имя хоста: `tls://ibksturm.synology.me` IP-адрес: `83.77.85.7`                                   | [Добавить в AdGuard](sdns://AwAAAAAAAAAAAAAUaWJrc3R1cm0uc3lub2xvZ3kubWU)                                                                                                              |
-| DNS-over-HTTPS, IPv4 | Имя хоста: `https://ibksturm.synology.me/dns-query` IP-адрес: `178.82.102.190`                   | [Добавить в AdGuard](sdns://AgcAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                                     |
-| DNSCrypt, IPv4       | Провайдер: `2.dnscrypt-cert.ibksturm` IP-адрес: `83.77.85.7:8443`                                | [Добавить в AdGuard](sdns://AQcAAAAAAAAADzgzLjc3Ljg1Ljc6ODQ0MyDBz1dQALBbwmxiH17PmqJWCs6_AH6-yzp_9LIN4LQ57hgyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0)                                          |
-| DNSCrypt, IPv6       | Провайдер: `2.dnscrypt-cert.ibksturm` IP-адрес: `[2a02:1205:5055:de60:b26e:bfff:fe1d:e19b]:8443` | [Добавить в AdGuard](sdns://AQcAAAAAAAAALlsyYTAyOjEyMDU6NTA1NTpkZTYwOmIyNmU6YmZmZjpmZTFkOmUxOWJdOjg0NDMgwc9XUACwW8JsYh9ez5qiVgrOvwB-vss6f_SyDeC0Oe4YMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
+| Протокол             | Адрес                                                                          |                                                                                                                                                   |
+| -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DNS-over-TLS, IPv4   | Имя хоста: `tls://ibksturm.synology.me` IP-адрес: `213.196.191.96`             | [Добавить в AdGuard](sdns://AwcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS-over-QUIC, IPv4  | Имя хоста: `quic://ibksturm.synology.me` IP-адрес: `213.196.191.96`            | [Добавить в AdGuard](sdns://BAcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS-over-HTTPS, IPv4 | Имя хоста: `https://ibksturm.synology.me/dns-query` IP-адрес: `213.196.191.96` | [Добавить в AdGuard](sdns://AgcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                         |
+| DNSCrypt, IPv4       | Провайдер: `2.dnscrypt-cert.ibksturm` IP-адрес: `213.196.191.96:8443`          | [Добавить в AdGuard](sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgKmPSv6jOgF7lERDduUMH7a4Z5ShV7PrD-IcS23XUsPkYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
 
 ### DNS Privacy
 

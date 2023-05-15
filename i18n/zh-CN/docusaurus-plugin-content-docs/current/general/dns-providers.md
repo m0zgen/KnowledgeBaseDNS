@@ -397,12 +397,12 @@ EDNS 客户端子网是一种在发送到权威 DNS 服务器的请求中包含�
 
 在「私人」模式下，仅进行 DNS 解析。
 
-| 协议                     | 地址                                                                                                 |                                                                                              |
-| ---------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| DNS, IPv4              | `149.112.121.10` 和 `149.112.122.10`                                                                | [添加到AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
-| DNS, IPv6              | `2620：10A：80BB：：10` 和 `2620：10A：80BC：10`                                                           | [添加到AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
-| DNS-over-HTTPS         | `https://private.canadianshield.cira.ca/dns-query`                                                 | [添加到AdGuard](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
-| DNS-over-TLS - Private | Hostname: `tls://family.canadianshield.cira.ca` IP: `149.112.121.10` and IPv6: `2620:10A:80BB::10` | [添加到AdGuard](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
+| 协议                     | 地址                                                                                                  |                                                                                              |
+| ---------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| DNS, IPv4              | `149.112.121.10` 和 `149.112.122.10`                                                                 | [添加到AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjEw)                                        |
+| DNS, IPv6              | `2620：10A：80BB：：10` 和 `2620：10A：80BC：10`                                                            | [添加到AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0)                                 |
+| DNS-over-HTTPS         | `https://private.canadianshield.cira.ca/dns-query`                                                  | [添加到AdGuard](sdns://AgEAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk) |
+| DNS-over-TLS - Private | Hostname: `tls://private.canadianshield.cira.ca` IP: `149.112.121.10` and IPv6: `2620:10A:80BB::10` | [添加到AdGuard](sdns://AwAAAAAAAAAAAAAecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNh)                |
 
 #### 受保护
 
@@ -420,12 +420,12 @@ EDNS 客户端子网是一种在发送到权威 DNS 服务器的请求中包含�
 
 在「家庭」模式下，受保护 + 拦截成人内容.
 
-| 协议                    | 地址                                                                                             |                                                                                             |
-| --------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| DNS, IPv4             | `149.112.121.30` 和 `149.112.122.30`                                                            | [添加到AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
-| DNS, IPv6             | `2620:10A:80BB::30` 和 `2620:10A:80BC::30`                                                      | [添加到AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
-| DNS-over-HTTPS        | `https://family.canadianshield.cira.ca/dns-query`                                              | [添加到AdGuard](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
-| DNS-over-TLS - Family | 主机名：`tls://protected.canadianshield.cira.ca` IP地址：`149.112.121.30` IPv6 地址：`2620:10A:80BB::30` | [添加到AdGuard](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
+| 协议                    | 地址                                                                                                 |                                                                                             |
+| --------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| DNS, IPv4             | `149.112.121.30` 和 `149.112.122.30`                                                                | [添加到AdGuard](sdns://AAAAAAAAAAAADjE0OS4xMTIuMTIxLjMw)                                       |
+| DNS, IPv6             | `2620:10A:80BB::30` 和 `2620:10A:80BC::30`                                                          | [添加到AdGuard](sdns://AAAAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjozMF0)                                |
+| DNS-over-HTTPS        | `https://family.canadianshield.cira.ca/dns-query`                                                  | [添加到AdGuard](sdns://AgEAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ) |
+| DNS-over-TLS - Family | Hostname: `tls://family.canadianshield.cira.ca` IP: `149.112.121.30` and IPv6: `2620:10A:80BB::30` | [添加到AdGuard](sdns://AwAAAAAAAAAAAAAdZmFtaWx5LmNhbmFkaWFuc2hpZWxkLmNpcmEuY2E)                |
 
 ### OpenNIC DNS
 
@@ -821,12 +821,12 @@ EDNS 客户端子网是一种在发送到权威 DNS 服务器的请求中包含�
 
 由 ibksturm 提供的 [ibksturm DNS](https://ibksturm.synology.me/) 测试服务器。 支持 OPENNIC、DNSSEC、无过滤、无日志记录。
 
-| 协议                  | 地址                                                                                      |                                                                                                                                                                               |
-| ------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DNS-over-TLS, IPv4  | 主机名：`tls://ibksturm.synology.me` IP 地址：`83.77.85.7`                                     | [添加到AdGuard](sdns://AwAAAAAAAAAAAAAUaWJrc3R1cm0uc3lub2xvZ3kubWU)                                                                                                              |
-| DNS-over-HTTPS IPv4 | 主机名：`https://ibksturm.synology.me/dns-query` IP 地址：`178.82.102.190`                     | [添加到AdGuard](sdns://AgcAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                                     |
-| DNSCrypt, IPv4      | 提供商：`2.dnscrypt-cert.ibksturm` IP 地址：`83.77.85.7:8443`                                  | [添加到AdGuard](sdns://AQcAAAAAAAAADzgzLjc3Ljg1Ljc6ODQ0MyDBz1dQALBbwmxiH17PmqJWCs6_AH6-yzp_9LIN4LQ57hgyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0)                                          |
-| DNSCrypt, IPv6      | 供应商：`2.dnscrypt-certif.ibksturm` IP 地址：`[2a02:1205:5055:de60:b26e:bfff:fe1d:e19b]:8443` | [添加到AdGuard](sdns://AQcAAAAAAAAALlsyYTAyOjEyMDU6NTA1NTpkZTYwOmIyNmU6YmZmZjpmZTFkOmUxOWJdOjg0NDMgwc9XUACwW8JsYh9ez5qiVgrOvwB-vss6f_SyDeC0Oe4YMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
+| 协议                  | 地址                                                                      |                                                                                                                                           |
+| ------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| DNS-over-TLS, IPv4  | Hostname: `tls://ibksturm.synology.me` IP: `213.196.191.96`             | [添加到AdGuard](sdns://AwcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS-over-QUIC, IPv4 | Hostname: `quic://ibksturm.synology.me` IP: `213.196.191.96`            | [添加到AdGuard](sdns://BAcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQ)                                                       |
+| DNS-over-HTTPS IPv4 | Hostname: `https://ibksturm.synology.me/dns-query` IP: `213.196.191.96` | [添加到AdGuard](sdns://AgcAAAAAAAAADjIxMy4xOTYuMTkxLjk2ABRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5)                                         |
+| DNSCrypt, IPv4      | Provider: `2.dnscrypt-cert.ibksturm` IP: `213.196.191.96:8443`          | [添加到AdGuard](sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgKmPSv6jOgF7lERDduUMH7a4Z5ShV7PrD-IcS23XUsPkYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt) |
 
 ### DNS Privacy
 
